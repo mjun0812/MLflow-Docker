@@ -11,8 +11,13 @@ MLflow Tracking Server on Docker.
 
 Set hostname at mlflow server.
 
+```bash
+cp env.template .env
+vim .env
 ```
-VIRTUAL_HOST: "example.com,localhost"
+
+```
+VIRTUAL_HOST="example.com,localhost"
 ```
 
 ## Run
