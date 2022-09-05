@@ -1,0 +1,10 @@
+mysql/data
+
+nginx/htpasswd/*
+!nginx/htpasswd/.gitkeep
+
+nginx/certs/*
+!nginx/certs/.gitkeep
+
+minio/*
+minio/.gitkeep
